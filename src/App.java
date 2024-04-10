@@ -9,10 +9,11 @@ public class App {
         System.out.printf("Minha idade é: %d", 25);
 
         //%f - substitui o coringa %f por um numero flutuante 
-        System.out.printf("\n0 valor de PI é: %f", 31415f);
+        System.out.printf("\n0 valor de PI é: %f", 3.1415f);
 
-        //%f.2 - substitui o coringa %f.2 por um numero flutuante 
-        System.out.printf("\n0 valor de PI é: %f.2", 31415f);
+        //%f.2 - substitui o coringa %.2f por um numero flutuante 
+        System.out.printf("\n0 valor de PI é: %.2f", 3.1415f);
+    
 
         //b - substitui o coringa %b por um valor booleano 
         System.out.printf("\nEsse valor é %b", true);
@@ -32,6 +33,7 @@ public class App {
         boolean valorVerdadeiro = true;
         char umCaractere = 'º';
         System.out.printf("\n%s, %d, %.2f, %b, %c", texto, numeroInteiro, numeroQuebrado, valorVerdadeiro, umCaractere);
+        
         
 
 
